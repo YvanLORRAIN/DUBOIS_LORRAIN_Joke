@@ -15,10 +15,10 @@ gtag('config', '272971568');
 </script>"""
 a=os.path.dirname(st.__file__) + '/static/index.html'
 with open(a, 'r') as f:
-data=f.read()
-if len(re.findall('UA-', data)) == 0:
-with open(a, 'w') as f:
-newdata=re.sub('<head>','<head>' + code, data)
-f.write(newdata)
+	data=f.read()
+	if len(re.findall('UA-', data)) == 0:
+		with open(a, 'w') as f:
+			newdata=re.sub('<head>','<head>' + code, data)
+			f.write(newdata)
 
 st.title("Hello world")
