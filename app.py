@@ -11,7 +11,7 @@ t>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', '272971568');
+gtag('config', 'UA-197462138-1');
 </script>"""
 a=os.path.dirname(st.__file__) + '/static/index.html'
 with open(a, 'r') as f:
@@ -21,4 +21,4 @@ with open(a, 'r') as f:
 			newdata=re.sub('<head>','<head>' + code, data)
 			f.write(newdata)
 
-st.title("Hello world")
+			st.title("Hello world")
