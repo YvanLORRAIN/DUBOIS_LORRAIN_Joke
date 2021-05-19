@@ -21,4 +21,4 @@ with open(a, 'r') as f:
 			newdata=re.sub('<head>','<head>' + code, data)
 			f.write(newdata)
 
-			st.title("Hello world")
+st.title("Hello world")
