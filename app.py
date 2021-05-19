@@ -5,7 +5,7 @@ import os
 import re
 code = """<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-4"></scrip
+src="https://www.googletagmanager.com/gtag/js?id=UA-197462138-1"></scrip
 t>
 <script>
 window.dataLayer = window.dataLayer || [];
