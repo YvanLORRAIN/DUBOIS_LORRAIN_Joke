@@ -5,13 +5,13 @@ import os
 import re
 code = """<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async
-src="https://www.googletagmanager.com/gtag/js?id=UA-197462138-1"></scrip
+src="https://www.googletagmanager.com/gtag/js?id=UA-197548657-1"></scrip
 t>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'UA-197462138-1');
+gtag('config', 'UA-197548657-1');
 </script>"""
 a=os.path.dirname(st.__file__) + '/static/index.html'
 with open(a, 'r') as f:
