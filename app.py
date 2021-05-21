@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("Hello world")
-# Import google analytics
+
 import os
 import re
 code = """<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -20,5 +20,4 @@ with open(a, 'r') as f:
 		with open(a, 'w') as f:
 			newdata=re.sub('<head>','<head>' + code, data)
 			f.write(newdata)
-
 
