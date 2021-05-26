@@ -1,5 +1,10 @@
 import streamlit as st
+import logging
+
+logging.warning("It's a trap!")
+
 st.title("Hello world")
+title = st.text_input('A meme', 'Hello there')
 
 import os
 import re
