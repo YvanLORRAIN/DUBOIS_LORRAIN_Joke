@@ -1,7 +1,7 @@
 import streamlit as st
 import logging
 import requests
-import pytrends
+import pytrends.request
 from pytrends.request import TrendReq
 
 
