@@ -22,7 +22,6 @@ the format and blacklist certain kinds of jokes.
 
 ======================================================================================
                              |      How to use it?      |
-======================================================================================
 
 When launching the application you will be asked a set of questions to define the type
 of jokes you will be sent. THose are claused question to whiwh you will answer "yes"
