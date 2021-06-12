@@ -3,16 +3,16 @@
 Authors: DUBOIS Hadrien
          LORRAIN Yvan
 
-======================================================================================
-                             |      Requirements      |
-======================================================================================
+=============================================
+	|      Requirements      |
+=============================================
 
 Install pip: python -m pip --version
 Install jokeapi: pip install jokeapi
 
-======================================================================================
-                             |      The app      |
-======================================================================================
+=============================================
+	|      The app      |
+=============================================
 
 The app is based on jokeapi, the api allows us to get jokes according to certain 
 criterias.
@@ -20,9 +20,9 @@ criterias.
 This app allows the user to send a request to get jokes. The user can select the type,
 the format and blacklist certain kinds of jokes.
 
-======================================================================================
-                             |      How to use it?      |
-======================================================================================
+=============================================
+	|      How to use it?      |
+=============================================
 
 When launching the application you will be asked a set of questions to define the type
 of jokes you will be sent. THose are claused question to whiwh you will answer "yes"
@@ -32,9 +32,9 @@ Once you answered all the questions you will be served a very fine joke! To send
 to your friends you just need to copy the joke and paste it in your favourite chating
 app and that's it!
 
-======================================================================================
-                             |      How it works?      |
-======================================================================================
+=============================================
+	|      How it works?      |
+=============================================
 
 Jokeapi provides a set functions that allows us to retrieve joke directly from the 
 api. 
